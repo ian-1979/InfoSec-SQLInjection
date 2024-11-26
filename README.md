@@ -6,5 +6,7 @@ To demonstrate SQL Injections, run main_vul.py
 - hacker', 'none'); DELETE FROM users; -- | in the username field
 - hacker', 'none'); UPDATE users SET pass = 'mine_now' WHERE user = 'admin'; -- | in username field
 
-Before running the other script, please delete the database that is created when you run the first one. Each script will create their own database. Without deleting the first database there will be repeated usernames/passwords
 main_fixed.py will not be vulnerable to these attacks. 
+
+Before running the other script, please delete the database that is created when you run the first one. Each script will create their own database. Without deleting the first database there will be repeated usernames/passwords
+
